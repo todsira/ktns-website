@@ -1,0 +1,13 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+
+# Dropbox
+.dropbox
+.dropbox.attr
+.dropbox.cache
+*.dropbox
+desktop.ini
+.~lock.*
+*conflicted copy*
