@@ -70,7 +70,7 @@ p{margin:0}
 @keyframes sheen{0%,55%{transform:translateX(-120%)}85%,100%{transform:translateX(120%)}}
 
 /* hero */
-.hero{position:relative;padding-block:clamp(36px,6vw,72px) 0;overflow:hidden;isolation:isolate}
+.hero{position:relative;padding-block:clamp(36px,6vw,72px) clamp(32px,5vw,56px);overflow:hidden;isolation:isolate}
 .aurora{position:absolute;inset:0;z-index:-1;filter:blur(70px);opacity:.75}
 .aurora i{position:absolute;border-radius:50%;animation:drift 18s ease-in-out infinite alternate}
 .aurora i:nth-child(1){width:46vw;height:46vw;max-width:620px;max-height:620px;left:-8%;top:-20%;background:#F5C7A9}
